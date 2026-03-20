@@ -18,13 +18,13 @@ Download this repository and extract it to your preferred working directory.
 
 Open Scilab and navigate to the macros folder inside the project. Run the following commands in the Scilab Console:
 
-  // Navigate to the macros directory
+    // Navigate to the macros directory
   
-  cd("path/to/Scilab-Xcos-Ocupancy-Model-block/Ocupancy_Model_Block/macros");
+    cd("path/to/Scilab-Xcos-Ocupancy-Model-block/Ocupancy_Model_Block/macros");
 
-  // Build and load the library
+    // Build and load the library
   
-  genlib("OccupancyLib", pwd());
+    genlib("OccupancyLib", pwd());
 
 
 3. Run the Scripts
